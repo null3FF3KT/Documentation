@@ -29,7 +29,7 @@ def main():
                 early_stopping=False
             )
         # Finally, we can print the generated summary
-            print(tokenizer.decode(output[0], skip_special_tokens=True))
+            print("Summary: " + tokenizer.decode(output[0], skip_special_tokens=True))
 
         except ValueError:
             print("Invalid input.  Try something shorter.")
