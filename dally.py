@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "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"
+openai.api_key = "<Replace with your own OpenAI API key>"
 
 def prompt_user():
   """TODO: parse user input for parameters like aspect resolution, and number of images(max 8)"""  
